@@ -14,4 +14,4 @@ Initial Setup:
 Running the script:
 - Run "python gsLogin.py"
 - You will be prompted for your RSA key. Enter it.
-- The script will handle the rest
+- The script will handle the rest.
