@@ -53,7 +53,7 @@ print("Time Saved = "+str(end_time-start_time))
 f = open("/Users/atharvchandratre/Desktop/timesaved.txt",'r') #Create this file if not created already, and change its location
 timesaved = f.read()
 timesaved_number = float(timesaved)
-timesaved_number+=(end_time-start_time)
+timesaved_number+=((end_time-start_time)*2.5)
 f.close()
 f = open("/Users/atharvchandratre/Desktop/timesaved.txt","w") #Change the location of this file here too, same as the above
 f.write(str(timesaved_number))
